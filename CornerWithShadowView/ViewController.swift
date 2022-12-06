@@ -20,7 +20,7 @@ class ViewController: UIViewController {
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
         
-        containerView.layer.sublayers?.removeAll(where: { $0.name == "containerViewLayer"} )
+        containerView.layer.sublayers?.removeAll(where: { $0.name == "containerViewLayer" })
         
         let shapeLayer = CAShapeLayer()
         shapeLayer.name = "containerViewLayer"
