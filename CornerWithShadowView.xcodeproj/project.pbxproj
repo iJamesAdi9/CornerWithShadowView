@@ -13,6 +13,7 @@
 		1AAFDC1B293EBE9A0069EB11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AAFDC19293EBE9A0069EB11 /* Main.storyboard */; };
 		1AAFDC1D293EBE9B0069EB11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AAFDC1C293EBE9B0069EB11 /* Assets.xcassets */; };
 		1AAFDC20293EBE9B0069EB11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AAFDC1E293EBE9B0069EB11 /* LaunchScreen.storyboard */; };
+		1AD1A199293F005D00C019A5 /* CornerRadiusWithShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD1A198293F005D00C019A5 /* CornerRadiusWithShadowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		1AAFDC1C293EBE9B0069EB11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1AAFDC1F293EBE9B0069EB11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1AAFDC21293EBE9B0069EB11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AD1A198293F005D00C019A5 /* CornerRadiusWithShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerRadiusWithShadowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				1AAFDC13293EBE9A0069EB11 /* AppDelegate.swift */,
 				1AAFDC15293EBE9A0069EB11 /* SceneDelegate.swift */,
 				1AAFDC17293EBE9A0069EB11 /* ViewController.swift */,
+				1AD1A198293F005D00C019A5 /* CornerRadiusWithShadowView.swift */,
 				1AAFDC19293EBE9A0069EB11 /* Main.storyboard */,
 				1AAFDC1C293EBE9B0069EB11 /* Assets.xcassets */,
 				1AAFDC1E293EBE9B0069EB11 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				1AAFDC18293EBE9A0069EB11 /* ViewController.swift in Sources */,
 				1AAFDC14293EBE9A0069EB11 /* AppDelegate.swift in Sources */,
+				1AD1A199293F005D00C019A5 /* CornerRadiusWithShadowView.swift in Sources */,
 				1AAFDC16293EBE9A0069EB11 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

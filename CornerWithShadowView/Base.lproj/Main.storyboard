@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cme-j4-2xh">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cme-j4-2xh" customClass="CornerRadiusWithShadowView" customModule="CornerWithShadowView" customModuleProvider="target">
                                 <rect key="frame" x="16" y="423" width="382" height="50"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Email" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="25P-SB-7lD">
@@ -45,7 +45,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="containerView" destination="cme-j4-2xh" id="ALr-XE-NPp"/>
+                        <outlet property="containerView" destination="cme-j4-2xh" id="xfP-HJ-sFi"/>
                         <outlet property="myTextField" destination="25P-SB-7lD" id="yho-Dj-d4e"/>
                     </connections>
                 </viewController>
